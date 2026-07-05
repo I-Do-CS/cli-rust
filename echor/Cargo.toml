@@ -1,0 +1,11 @@
+[package]
+name = "echor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.0", features = ["derive"] } # Command-line argument parsing
+anyhow = "1.0.79"                                   # Ergonomic application-level error handling
+assert_cmd = "2.0.13"                               # Testing command-line applications
+predicates = "3.0.4"                                # Composable assertions for tests
+pretty_assertions = "1.4.0"                         # Colored, human-friendly assertion diffs
